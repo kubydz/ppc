@@ -1,17 +1,23 @@
 
 .game-container {
-    max-width: 600px;
+    /* max-width: 700px; */
+    width: 54em;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-    background-color: rgb(110, 154, 81);
+    background-color: #315144;
     font-family: Chalkduster, fantasy;
+    margin-bottom: 14rem;
+    border: solid 20px #9d906f;
   }
-  
+  h1{
+    color: aliceblue;
+  }
   .score {
     font-size: 2rem;
     margin: 1rem 0;
     font-weight: bold;
+    color: aliceblue;
   }
   
   .choices {
@@ -58,4 +64,5 @@
   
   p{
     color: rgba(249, 250, 251, 0.842);
+    margin: 6px;
   }
